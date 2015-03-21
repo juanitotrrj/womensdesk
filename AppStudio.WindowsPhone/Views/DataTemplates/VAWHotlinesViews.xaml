@@ -1,0 +1,50 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:AppStudio.Controls"
+    xmlns:html2xaml="using:AppStudio.Controls.Html2Xaml"
+    xmlns:commands="using:AppStudio.Commands">
+
+    <!-- ListNoPhoto -->
+    <DataTemplate x:Key="VAWHotlinesList">
+        <Grid>
+            <ListView ItemsSource="{Binding Items}"  SelectionMode="None" IsSwipeEnabled="False" IsItemClickEnabled="True"  commands:ItemClickCommand.Command="{Binding ItemClickCommand}" ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                     ItemTemplate="{StaticResource VAWHotlinesItem}"/>
+            <ProgressBar Height="40" VerticalAlignment="Top" IsIndeterminate="True" Visibility="{Binding ProgressBarVisibility}" />
+        </Grid>
+    </DataTemplate>
+
+    <!-- ListNoPhoto Item -->
+    <DataTemplate x:Key="VAWHotlinesItem">
+        <Grid Height="130" Margin="0,0,0,5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Style="{StaticResource TitleStyle}" Text="{Binding Name}" MaxLines="2"/>
+            <TextBlock Grid.Row="1" Margin="0, 5, 0, 0" Style="{StaticResource SubtitleStyle}" Text="{Binding Address}"/>
+        </Grid>
+    </DataTemplate>
+
+
+    <!-- DetailMultiColumn -->
+    <DataTemplate x:Key="VAWHotlines1DetailDetail">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" ZoomMode="Disabled">
+            <StackPanel>
+                <TextBlock Text="{Binding Name}" Style="{StaticResource PageTitleStyle}"/>
+                <Button Margin="0,12,0,0" Style="{StaticResource ImageButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top"
+                        Command="{Binding Source={StaticResource ActionCommands}, Path=ShowImage}" CommandParameter="{Binding Email}">
+                    <Viewbox StretchDirection="DownOnly">
+                        <Image Source="{Binding Email}" Stretch="UniformToFill"/>
+                    </Viewbox>
+                </Button>
+                <Button Margin="0,12,0,0" VerticalAlignment="Top" Style="{StaticResource TitleLocationActionButton}"
+                        Command="{Binding Source={StaticResource ActionCommands}, Path=MapsPosition}" CommandParameter="{Binding Address}"
+                        Content="{Binding Address}" />
+                <Button Margin="0,12,0,0" VerticalAlignment="Top" Style="{StaticResource DescriptionCallActionButton}"
+                        Command="{Binding Source={StaticResource ActionCommands}, Path=CallToPhone}" CommandParameter="{Binding Contact}"
+                        Content="{Binding Contact}" />
+            </StackPanel>
+        </ScrollViewer>
+    </DataTemplate>
+</ResourceDictionary>

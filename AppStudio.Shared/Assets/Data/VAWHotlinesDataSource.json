@@ -1,0 +1,39 @@
+{
+  "Items": [
+    {
+      "Name": "Department of Social Welfare and Development",
+      "Address": "Batasan Pambansa Complex Quezon City",
+      "Contact": "+6329318101",
+      "Email": "",
+      "_id": "7f27d729-a17e-4d48-a46a-fc635c3ed758"
+    },
+    {
+      "Name": "DSWD–NCR Ugnayan Pag-asa Crisis Intervention Center",
+      "Address": "Legarda Manila",
+      "Contact": "+6327348639",
+      "Email": "",
+      "_id": "cf0a9faf-cdff-4274-889b-955399e1672f"
+    },
+    {
+      "Name": "Philippine National Police",
+      "Address": "Camp Crame Quezon City",
+      "Contact": "+6327230401",
+      "Email": "",
+      "_id": "acdbacf9-cb86-4ca2-a6b8-9f62726f2426"
+    },
+    {
+      "Name": "PNP-Women and Children Protection Center",
+      "Address": "Camp Crame Quezon City",
+      "Contact": "+6324103213",
+      "Email": "",
+      "_id": "c7115a12-b6cb-4963-919a-74978e0e98c3"
+    },
+    {
+      "Name": "NBI-Violence Against Women and Children Desk",
+      "Address": "Taft Avenue Manila",
+      "Contact": "+6325238231",
+      "Email": "",
+      "_id": "57e4bd7c-692c-4918-b1bf-ca94aa99e4ae"
+    }
+  ]
+}

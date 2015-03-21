@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SIRKEN</Machine>
+    <WindowsUser>Wilson</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>7b7129a7-1722-410b-bfa7-a91cadca1634</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\AppStudio.exe">
+      <PackagePath>AppStudio.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\Lib\AppStudio.Common.dll">
+      <PackagePath>AppStudio.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Data\bin\Debug\AppStudio.Data.dll">
+      <PackagePath>AppStudio.Data.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\packages\HtmlAgilityPack.1.4.9\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch\HtmlAgilityPack.dll">
+      <PackagePath>HtmlAgilityPack.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\packages\Newtonsoft.Json.6.0.6\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Data\bin\Debug\PCLStorage.Abstractions.dll">
+      <PackagePath>PCLStorage.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Data\bin\Debug\PCLStorage.dll">
+      <PackagePath>PCLStorage.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Shared\Assets\ErrorImage.png">
+      <PackagePath>Assets\ErrorImage.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Shared\Assets\DataImages\FlipSquareTile.png">
+      <PackagePath>Assets\DataImages\FlipSquareTile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Shared\Assets\DataImages\FlipWideTile.png">
+      <PackagePath>Assets\DataImages\FlipWideTile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Shared\Assets\DataImages\ModuleLogo-1.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Shared\Assets\DataImages\ModuleLogo-2.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Shared\Assets\DataImages\ModuleLogo-3.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Shared\Assets\DataImages\ModuleLogo-4.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Shared\Assets\DataImages\ModuleLogo-6.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Shared\Assets\DataImages\ModuleLogo-7.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Shared\Assets\ApplicationLogo.png">
+      <PackagePath>Assets\ApplicationLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\Views\DataTemplates\FastAccessViews.xaml">
+      <PackagePath>Views\DataTemplates\FastAccessViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\Views\DataTemplates\SocialMediaViews.xaml">
+      <PackagePath>Views\DataTemplates\SocialMediaViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\Views\DataTemplates\FacebookViews.xaml">
+      <PackagePath>Views\DataTemplates\FacebookViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\Views\DataTemplates\TwitterViews.xaml">
+      <PackagePath>Views\DataTemplates\TwitterViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\Views\DataTemplates\InstagramViews.xaml">
+      <PackagePath>Views\DataTemplates\InstagramViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\Views\DataTemplates\VAWHotlinesViews.xaml">
+      <PackagePath>Views\DataTemplates\VAWHotlinesViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Shared\Assets\Data\FastAccessDataSource.json">
+      <PackagePath>Assets\Data\FastAccessDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Shared\Assets\Data\SocialMediaDataSource.json">
+      <PackagePath>Assets\Data\SocialMediaDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Shared\Assets\Data\FacebookDataSource.json">
+      <PackagePath>Assets\Data\FacebookDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Shared\Assets\Data\TwitterDataSource.json">
+      <PackagePath>Assets\Data\TwitterDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Shared\Assets\Data\InstagramDataSource.json">
+      <PackagePath>Assets\Data\InstagramDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.Shared\Assets\Data\VAWHotlinesDataSource.json">
+      <PackagePath>Assets\Data\VAWHotlinesDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\Styles\AppTheme.xbf">
+      <PackagePath>Styles\AppTheme.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\Styles\DefaultTheme.xbf">
+      <PackagePath>Styles\DefaultTheme.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\Views\ImageViewer.xbf">
+      <PackagePath>Views\ImageViewer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\Views\MainPage.xbf">
+      <PackagePath>Views\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\Views\FacebookPage.xbf">
+      <PackagePath>Views\FacebookPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\Views\TwitterPage.xbf">
+      <PackagePath>Views\TwitterPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\Views\InstagramPage.xbf">
+      <PackagePath>Views\InstagramPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\Views\FacebookDetailPage.xbf">
+      <PackagePath>Views\FacebookDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\Views\InstagramDetailPage.xbf">
+      <PackagePath>Views\InstagramDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\Views\VAWHotlinesDetailPage.xbf">
+      <PackagePath>Views\VAWHotlinesDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\Styles\FontSizes.xbf">
+      <PackagePath>Styles\FontSizes.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\Styles\ButtonStyles.xbf">
+      <PackagePath>Styles\ButtonStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\Styles\PlatformStyles.xbf">
+      <PackagePath>Styles\PlatformStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\AppStudio.xr.xml">
+      <PackagePath>AppStudio.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Wilson\Documents\WomensDesk\AppStudio.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

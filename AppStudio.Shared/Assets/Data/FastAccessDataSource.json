@@ -1,0 +1,22 @@
+{
+  "Items": [
+    {
+      "Type": "Url",
+      "Title": "Nearby Hospitals",
+      "Icon": "/Assets/DataImages/ModuleLogo-1.png",
+      "Target": "bingmaps:?where=hospital"
+    },
+    {
+      "Type": "Url",
+      "Title": "Nearby Police Stations",
+      "Icon": "/Assets/DataImages/ModuleLogo-2.png",
+      "Target": "bingmaps:?where=police station"
+    },
+    {
+      "Type": "Url",
+      "Title": "Nearby Barangay Halls",
+      "Icon": "/Assets/DataImages/ModuleLogo-3.png",
+      "Target": "bingmaps:?where=government"
+    }
+  ]
+}

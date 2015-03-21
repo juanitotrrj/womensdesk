@@ -1,0 +1,22 @@
+{
+  "Items": [
+    {
+      "Type": "Section",
+      "Title": "Facebook",
+      "Icon": "/Assets/DataImages/ModuleLogo-4.png",
+      "Target": "FacebookPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Twitter",
+      "Icon": "/Assets/DataImages/ModuleLogo-6.png",
+      "Target": "TwitterPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Instagram",
+      "Icon": "/Assets/DataImages/ModuleLogo-7.png",
+      "Target": "InstagramPage"
+    }
+  ]
+}
